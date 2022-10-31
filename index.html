@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="message">Rock Paper Scissors</div>
+        <div id="message2">Click a button below to play!!</div>
+        <div id="buttonsDiv">
+            <button class="userButtons" id="testid" value='Rock'>✊🏼</button>
+            <button class="userButtons" value='Paper'>✋🏼</button>
+            <button class="userButtons" value='Scissors'>✌🏼</button>
+        </div>
+        <div id="displayDiv">
+            <div id="choices"></div>
+            <div id="result"></div>
+            <div id="userScore"></div>
+            <div id="clearDiv" onclick="clearButton()">
+                <button id="clear">🛑</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

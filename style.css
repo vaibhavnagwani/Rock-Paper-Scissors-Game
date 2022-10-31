@@ -1,0 +1,67 @@
+*{
+    font-family: Helvetica, 'M PLUS Rounded 1c', 'Avenir Next', sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background: seashell;
+    color: black;
+    width: 500px;
+    aspect-ratio: 1/1;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 35px;
+}
+
+#message{
+    text-align: center;
+    padding: 30px;
+    background-color: teal;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+#message2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#buttonsDiv{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: teal;
+    height: 70px;
+    aspect-ratio: 1/1;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#displayDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#displayDiv{
+    /* font-size: 5em; */
+    line-height: 35px;
+    text-align: center;
+    margin-top: 40px;
+}
+#choices, #userScore{
+    margin-bottom: 15px;
+}
