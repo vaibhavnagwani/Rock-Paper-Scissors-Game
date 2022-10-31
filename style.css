@@ -2,10 +2,12 @@
     font-family: Helvetica, 'M PLUS Rounded 1c', 'Avenir Next', sans-serif;
     font-size: large;
     font-weight: 500;
+
 }
 
 body{
-    background-color: black;
+    background-color: #aaeee8;
+    /* background-repeat: no-repeat; */
 }
 
 .container{
@@ -21,9 +23,10 @@ body{
 #message{
     text-align: center;
     padding: 30px;
-    background-color: teal;
+    background-color: #3fd9cc;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
+    font-weight: bolder;
 }
 
 #message2{
@@ -38,7 +41,7 @@ body{
 }
 
 button{
-    background-color: teal;
+    background-color: #3fd9cc;
     height: 70px;
     aspect-ratio: 1/1;
     border-radius: 30px;
